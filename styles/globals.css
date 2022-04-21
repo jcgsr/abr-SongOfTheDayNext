@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Kaushan+Script&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+:root {
+  --primary: hsl(0, 0%, 0%);
+  --secondary: hsl(0, 0%, 100%);
+  --terciary: hsl(0, 0%, 30%);
+  --ff1: "Kaushan Script", cursive;
+  --ff2: "DM Sans", sans-serif;
+  --fr: 400;
+  --fm: 500;
+  --fb: 700;
+}
+body {
+  background-color: var(--primary);
+  font-family: var(--ff2);
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: var(--fb);
+  text-align: center;
+  margin: 2rem auto;
+  color: var(--secondary);
+}
+@media screen and (max-width: 456px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: var(--fb);
+  text-align: center;
+  margin: 2rem auto;
+  color: var(--primary);
+}
+h4 {
+  font-size: 1.5em;
+  font-weight: var(--fb);
+  text-align: center;
+  margin: 2rem auto;
+}
+iframe {
+  margin: 1rem auto;
+  text-align: center;
+}
+p {
+  color: var(--secondary);
+}
+a {
+  text-decoration: none;
+}
+
+i {
+  color: var(--secondary);
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--secondary);
+  padding: 1rem;
+  text-align: center;
+}
+header a {
+  color: var(--primary);
+  text-transform: uppercase;
+  font-family: var(--ff1);
+}
+footer {
+  background-color: var(--secondary);
+  padding: 2rem;
+  text-align: center;
+}
+footer p {
+  color: var(--primary);
+  font-weight: var(--fm);
+}
+/* 
+img {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 1rem;
+} */
+/* article p {
+  position: relative;
+  letter-spacing: 7px;
+  overflow: hidden;
+  border-right: 2px solid hsl(0, 0%, 80%);
+  white-space: nowrap;
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+}
+@keyframes typewriter {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: hsl(0, 0%, 80%);
+  }
+  to {
+    border-right-color: transparent;
+  }
+} */
+
+/* CLASSES */
+
+.video {
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 456px) {
+  .video iframe {
+    width: 90%;
+    text-align: center;
+  }
+}
+.hero {
+  background: url(../assets/cassete.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 6rem;
+  opacity: 0.8;
+}
+@media screen and (max-width: 456px) {
+  .hero {
+    padding: 2rem;
+  }
+}
+
+.singer {
+  font-size: 12vw;
+  background: url(https://i0.statig.com.br/bancodeimagens/bp/dk/lx/bpdklxrk3q3zpdkaf2xsqteom.jpg);
+  color: transparent;
+  background-size: 20%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  animation: zoomout 10s ease 0.5s forwards;
+}
+@keyframes zoomout {
+  from {
+    background-size: 20%;
+  }
+  to {
+    background-size: 80%;
+  }
+}
+.ml6 {
+  position: relative;
+  font-weight: var(--fm);
+  color: var(--secondary);
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+@media screen and (max-width: 456px) {
+  .letters {
+    font-size: 0.75rem;
+  }
+}
+
+.lyrics {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  line-height: 1.7em;
+  background-color: var(--secondary);
+  font-weight: var(--fm);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.lyrics p {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--primary);
+}
+
+@media screen and (max-width: 456px) {
+  .lyrics p {
+    width: 90%;
+  }
+}
+
+.music-platform {
+  margin: 2rem auto;
+  text-align: center;
+  width: 50%;
+}
+
+@media screen and (max-width: 456px) {
+  .music-platform {
+    width: 75%;
+  }
+}
+
+.shine {
+  color: var(--terciary);
+  font-weight: var(--fb);
+  font-family: var(--ff1);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  background: linear-gradient(
+    to right,
+    hsl(0, 0%, 100%) 0%,
+    hsl(0, 0%, 30%) 10%,
+    hsl(0, 0%, 100%) 20%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  padding: 1rem;
+}
+.timespan {
+  text-align: center;
+  font-family: var(--ff1);
+  font-weight: var(--fr);
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 600px;
+  }
+  100% {
+    background-position: 800px;
+  }
+}
+.explain {
+  width: 100%;
+  padding: 2rem;
+  line-height: 1.7rem;
+}
+.explain p {
+  color: var(--secondary);
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: var(--fr);
+}
+.social {
+  margin: 2rem auto;
+  text-align: center;
+  width: 70%;
+  padding: 2rem;
+}
+
+.social-box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.social i {
+  font-size: 4em;
+  margin: 0.5rem;
+  color: var(--secondary);
+  margin-top: 2rem;
+  transition: all 1s ease;
+  transition: color 1s ease, font-size 1s ease;
+}
+.social i:hover {
+  font-size: 4.5em;
+  color: var(--terciary);
+}
+/* Barba */
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 10;
+  width: 100%;
+  height: 100vh;
+}
+.page-transition {
+  position: absolute;
+  top: 0;
+  background-color: var(--terciary);
+  width: 100%;
+  height: 0%;
+}
+/* Barba */
+/* IDS */
+#date {
+  color: var(--secondary);
+  font-size: large;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+#contact {
+  color: var(--terciary);
+  transition: color 1s ease;
+}
+#contact:hover {
+  color: var(--primary);
+}
+#google_translate_element {
+  position: relative;
+  text-align: right;
+  right: -80px;
+  top: -80px;
+}
+@media screen and (max-width: 456px) {
+  #google_translate_element {
+    right: -20px;
+    top: -20px;
+  }
+}
+
+#credits {
+  font-size: x-small;
+  text-align: right;
+  margin-bottom: 2rem;
+  padding: 0.3rem;
+}
