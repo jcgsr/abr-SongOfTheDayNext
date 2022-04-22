@@ -5,6 +5,7 @@ import Layout from "../components/Layout";
 import NinaSimone from "../components/NinaSimone";
 
 import { motion } from "framer-motion";
+import Head from "next/head";
 
 const variants = {
   hidden: { opacity: 0, x: -200, y: 0 },
@@ -35,6 +36,32 @@ export default function Home() {
   return (
     <>
       <Layout>
+        <Head>
+          <title>Song of the Day</title>
+          <meta name="description" content="Song of the day to inspire you." />
+          <meta name="keywords" content="Song, Inspire, Jovane, Music" />
+          {/*  OpenGraph */}
+          <meta property="og:title" content="Song of the Day" />
+          <meta
+            property="og:description"
+            content="Song of the day to inspire you."
+          />
+          <meta property="og:url" content="https://songoftheday.netlify.app/" />
+          <meta
+            property="og:image"
+            content="https://images.pexels.com/photos/8038906/pexels-photo-8038906.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+          />
+          {/*  Twitter */}
+          <meta name="twitter:title" content="Song of the Day" />
+          <meta
+            name="twitter:description"
+            content="Song of the day to inspire you."
+          />
+          <meta
+            name="twitter:image"
+            content="https://images.pexels.com/photos/8038906/pexels-photo-8038906.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+          />
+        </Head>
         <motion.main
           variants={variants} // Pass the variant object into Framer Motion
           initial="hidden" // Set the initial state to variants.hidden
@@ -44,9 +71,9 @@ export default function Home() {
           className=""
         >
           <div className="hero">
-            {/* <span id="google_translate_element">
+            <span id="google_translate_element">
               {googleTranslateElementInit}
-            </span> */}
+            </span>
             <h1 className="shine">Song of the Day</h1>
           </div>
           <p id="credits">

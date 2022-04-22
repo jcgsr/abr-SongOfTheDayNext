@@ -7,6 +7,8 @@ import "../styles/globals.css";
 
 import { motion } from "framer-motion";
 
+import { NextSeo } from "next-seo";
+
 function MyApp({ Component, pageProps, router }) {
   useEffect(() => {
     AOS.init({
@@ -30,6 +32,31 @@ function MyApp({ Component, pageProps, router }) {
         },
       }}
     >
+      <NextSeo
+        title="Home"
+        titleTemplate="Song of the Day | %s"
+        defaultTitle="Song of the Day"
+        description="Song of the day to inspire you."
+        canonical="https://songoftheday.netlify.app/"
+        openGraph={{
+          url: "https://songoftheday.netlify.app/",
+          title: "Song of the Day",
+          description: "Song of the day to inspire you.",
+          images: [
+            {
+              url: "https://images.pexels.com/photos/8038906/pexels-photo-8038906.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+              width: 800,
+              height: 420,
+              alt: "Cassete Photo",
+            },
+          ],
+        }}
+        twitter={{
+          handle: "@teufel8",
+          site: "@teufel8",
+          cardType: "summary_large_image",
+        }}
+      />
       <Component {...pageProps} />;
     </motion.div>
   );
