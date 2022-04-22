@@ -46,7 +46,7 @@ export default function Home() {
             property="og:description"
             content="Song of the day to inspire you."
           />
-          <meta property="og:url" content="https://songoftheday.netlify.app/" />
+          <meta property="og:url" content="https://songoftheday.vercel.app/" />
           <meta
             property="og:image"
             content="https://images.pexels.com/photos/8038906/pexels-photo-8038906.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
@@ -68,7 +68,6 @@ export default function Home() {
           animate="enter" // Animated state to variants.enter
           exit="exit" // Exit state (used later) to variants.exit
           transition={{ type: "linear" }} // Set the transition to linear
-          className=""
         >
           <div className="hero">
             <span id="google_translate_element">

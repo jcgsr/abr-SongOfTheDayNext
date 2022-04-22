@@ -37,9 +37,9 @@ function MyApp({ Component, pageProps, router }) {
         titleTemplate="Song of the Day | %s"
         defaultTitle="Song of the Day"
         description="Song of the day to inspire you."
-        canonical="https://songoftheday.netlify.app/"
+        canonical="https://songoftheday.vercel.app/"
         openGraph={{
-          url: "https://songoftheday.netlify.app/",
+          url: "https://songoftheday.vercel.app/",
           title: "Song of the Day",
           description: "Song of the day to inspire you.",
           images: [

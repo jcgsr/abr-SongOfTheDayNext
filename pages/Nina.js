@@ -8,10 +8,10 @@ export default function Nina() {
     <Layout>
       <NextSeo
         title="Nina Simone"
-        canonical="https://songoftheday.netlify.app/Nina"
+        canonical="https://songoftheday.vercel.app/Nina"
         description="Nina Simone - I Wish I Knew How It Would Feel To Be Free"
         openGraph={{
-          url: "https://songoftheday.netlify.app/Nina",
+          url: "https://songoftheday.vercel.app/Nina",
           title: "Nina Simone",
           description:
             "Nina Simone - I Wish I Knew How It Would Feel To Be Free",
@@ -27,7 +27,7 @@ export default function Nina() {
       />
 
       <div>
-        <main>
+        <main className="content">
           <NinaSimone />
         </main>
       </div>
