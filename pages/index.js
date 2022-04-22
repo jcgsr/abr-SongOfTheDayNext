@@ -77,7 +77,7 @@ export default function Home() {
             <h1 className="shine">Song of the Day</h1>
           </div>
           <p id="credits">
-            Foto de Elijah O'Donnell no
+            Foto de Elijah no
             <a href="https://www.pexels.com/pt-br/foto/envelhecido-curtido-maturado-antiguidade-8038906/">
               Pexels
             </a>

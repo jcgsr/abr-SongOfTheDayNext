@@ -31,9 +31,9 @@ export default function Artist(props) {
           text-align="center"
           src={youtube}
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
       <section className="music-platform">
@@ -54,8 +54,8 @@ export default function Artist(props) {
           src={spotify}
           width="100%"
           height="380"
-          frameborder="0"
-          allowfullscreen=""
+          frameBorder="0"
+          allowFullScreen=""
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         ></iframe>
       </section>

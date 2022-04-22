@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer>
       <p>
-        Made with <span class="heart">❤</span> by
+        Made with <span>❤</span> by
         <a id="contact" href="https://jovane.netlify.app/">
           {" "}
           Jovane{" "}
