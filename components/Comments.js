@@ -23,7 +23,6 @@ const Comments = () => {
       if (comments) comments.innerHTML = "";
     };
   }, []);
-
   return <div id={COMMENTS_ID} />;
 };
 

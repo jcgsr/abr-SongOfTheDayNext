@@ -1,6 +1,11 @@
 import React from "react";
 
+import { motion, useViewportScroll, useTransform } from "framer-motion";
+
 export default function Artist(props) {
+  const { scrollYProgress } = useViewportScroll();
+  const scale = useTransform(scrollYProgress, [0, 0.9], [0.2, 1]);
+  const { site, name, song, youtube, amazon, spotify, lyrics } = props;
   const DATE_OPTIONS = {
     weekday: "short",
     year: "numeric",
@@ -13,20 +18,18 @@ export default function Artist(props) {
         <p>from Fri, Apr 15, 2022 to</p>
         <p id="date">{new Date().toLocaleDateString("en-US", DATE_OPTIONS)}</p>
       </div>
-      <a href={props.site} target="__blank">
-        <h1 className="singer">{props.name}</h1>
+      <a href={site} target="__blank">
+        <h1 className="singer">{name}</h1>
       </a>
-      <h4 className="ml6">
-        <span className="text-wrapper">
-          <span className="letters">{props.song}</span>
-        </span>
-      </h4>
+
+      <h4>{song}</h4>
+
       <div className="video ">
         <iframe
           width="560"
           height="315"
           text-align="center"
-          src={props.youtube}
+          src={youtube}
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -37,7 +40,7 @@ export default function Artist(props) {
         <iframe
           data-aos="fade-up"
           id="AmazonMusicEmbedB073LYYDZP"
-          src={props.amazon}
+          src={amazon}
           width="100%"
           height="290px"
           style={{
@@ -48,7 +51,7 @@ export default function Artist(props) {
         <iframe
           data-aos="fade-up"
           style={{ borderRadius: "12px" }}
-          src={props.spotify}
+          src={spotify}
           width="100%"
           height="380"
           frameborder="0"
@@ -60,7 +63,14 @@ export default function Artist(props) {
         <h3 data-aos="fade-up" className="shine">
           Lyrics
         </h3>
-        <p data-aos="fade-up">{props.lyrics}</p>
+        <motion.div style={{ scale }}>
+          <motion.div
+            style={{
+              scaleY: scrollYProgress,
+            }}
+          />
+          <p data-aos="fade-up">{lyrics}</p>
+        </motion.div>
       </section>
     </>
   );
