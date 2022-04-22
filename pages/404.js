@@ -7,7 +7,7 @@ export default function h1() {
       <h2>404 - Essa página não existe...</h2>
       <p>
         Voltar para{" "}
-        <Link href="/">
+        <Link href="/" passHref>
           <button className="btn">Home</button>
         </Link>
       </p>

@@ -5,7 +5,7 @@ export default function Previous(props) {
   const { artist, song, page } = props;
   return (
     <>
-      <Link href={page}>
+      <Link href={page} passHref>
         <article className="previous-song">
           <h3>{artist}</h3>
           <h4>{song}</h4>
