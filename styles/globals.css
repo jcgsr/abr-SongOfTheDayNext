@@ -99,39 +99,6 @@ footer p {
   color: var(--primary);
   font-weight: var(--fm);
 }
-/* 
-img {
-  width: 40%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 2rem;
-  margin-bottom: 1rem;
-} */
-/* article p {
-  position: relative;
-  letter-spacing: 7px;
-  overflow: hidden;
-  border-right: 2px solid hsl(0, 0%, 80%);
-  white-space: nowrap;
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-    blinkTextCursor 500ms infinite;
-}
-@keyframes typewriter {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 100%;
-  }
-}
-@keyframes blinkTextCursor {
-  from {
-    border-right-color: hsl(0, 0%, 80%);
-  }
-  to {
-    border-right-color: transparent;
-  }
-} */
 
 /* CLASSES */
 
@@ -310,23 +277,7 @@ img {
   font-size: 4.1em;
   color: var(--terciary);
 }
-/* Barba */
-.loader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  z-index: 10;
-  width: 100%;
-  height: 100vh;
-}
-.page-transition {
-  position: absolute;
-  top: 0;
-  background-color: var(--terciary);
-  width: 100%;
-  height: 0%;
-}
+
 .previous-song {
   background-color: var(--secondary);
   width: 30%;
@@ -350,7 +301,21 @@ img {
   }
 }
 
-/* Barba */
+.btn {
+  background-color: var(--terciary);
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  color: var(--secondary);
+  padding: 0.5rem;
+  box-shadow: var(--secondary) 1px 1px 3px;
+  transition: all 0.5s ease-in-out;
+}
+.btn:hover {
+  background-color: var(--secondary);
+  color: var(--primary);
+  box-shadow: var(--terciary) 1px 1px 3px;
+}
 /* IDS */
 #date {
   color: var(--secondary);
@@ -399,4 +364,9 @@ img {
     flex-direction: column;
     margin: 0 auto;
   }
+}
+#error {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 2rem;
 }
