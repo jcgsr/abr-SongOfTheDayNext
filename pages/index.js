@@ -90,7 +90,7 @@ export default function Home() {
             data-aos="fade-right"
             artist="No previous artist yet"
             song="no previous song yet"
-            page="/Nina"
+            page="/"
           />
           <hr style={{ width: "70%", margin: "2rem auto" }} />
         </div>
