@@ -18,6 +18,10 @@ export default function Layout({ children }) {
         <link rel="shortcut icon" href="favicon.ico" />
         <meta name="author" content="Jovane" />
         <meta name="keywords" content="Song, Inspire, Jovane, Music" />
+        <meta
+          name="google-site-verification"
+          content="ymDSNC0hJKNdPP_u-w3Z6rmZywZ6S2XywCDazFCYV_I"
+        />
       </Head>
       <Header />
 
