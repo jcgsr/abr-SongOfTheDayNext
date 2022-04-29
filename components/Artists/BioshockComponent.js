@@ -7,9 +7,9 @@ export default function BioshockComponent() {
       site="https://en.wikipedia.org/wiki/BioShock_Infinite"
       name="Bioshock Infinite"
       song="Will the Circle be Unbroken"
-      youtube="https://www.youtube.com/watch?v=qpr6W3lAeaQ"
-      amazon="https://music.amazon.com.br/albums/B08J2R4NZR?marketplaceId=ART4WZ8MWBX2Y&musicTerritory=BR&ref=dm_sh_XyBEOW89oZXvDa2ABUlxzDQ91&trackAsin=B08J2HY6KS"
-      spotify="https://open.spotify.com/track/0O1P1YNIm62QpB8DYYjymg?si=58b4e610dd6143ea"
+      youtube="https://www.youtube.com/embed/TdXbEXOjft0"
+      amazon="https://music.amazon.com.br/embed/B08J2HY6KS/?id=EH0FKasht9&marketplaceId=ART4WZ8MWBX2Y&musicTerritory=BR"
+      spotify="https://open.spotify.com/embed/track/0O1P1YNIm62QpB8DYYjymg?utm_source=generator"
       lyrics="♫ There are loved ones in the glory, 
       Whose dear forms you often miss; 
       When you close your earthly story, 
