@@ -1,6 +1,6 @@
 import React from "react";
 
-import Artist from "./Artist";
+import Artist from "../Artist";
 
 export default function NinaSimone() {
   return (

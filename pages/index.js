@@ -1,8 +1,11 @@
+// 21.04.2022 - 1º site em Next!
 import React, { useEffect } from "react";
 
 import Previous from "../components/Previous";
 import Layout from "../components/Layout";
-import NinaSimone from "../components/NinaSimone";
+import NinaSimone from "../components/Artists/NinaSimone";
+import Bioshock from "../components/Artists/BioshockComponent";
+import TimeSpan from "../components/TimeSpan";
 
 import { motion } from "framer-motion";
 import Head from "next/head";
@@ -81,15 +84,17 @@ export default function Home() {
               Pexels
             </a>
           </p>
-          <NinaSimone />
+          <TimeSpan />
+          <Bioshock />
+          {/* <NinaSimone /> */}
         </motion.main>
         <h2>Previous Songs</h2>
         <div id="previous">
           <Previous
             data-aos="fade-right"
-            artist="No previous artist yet"
-            song="no previous song yet"
-            page="/"
+            artist="Nina Simone"
+            song="I Wish I Knew How It Would Feel To Be Free"
+            page="/Nina"
           />
           <hr style={{ width: "70%", margin: "2rem auto" }} />
         </div>

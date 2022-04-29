@@ -6,18 +6,9 @@ export default function Artist(props) {
   const { scrollYProgress } = useViewportScroll();
   const scale = useTransform(scrollYProgress, [0, 0.9], [0.2, 1]);
   const { site, name, song, youtube, amazon, spotify, lyrics } = props;
-  const DATE_OPTIONS = {
-    weekday: "short",
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-  };
+
   return (
     <>
-      <div className="timespan">
-        <p>from Fri, Apr 15, 2022 to</p>
-        <p id="date">{new Date().toLocaleDateString("en-US", DATE_OPTIONS)}</p>
-      </div>
       <a href={site} target="__blank">
         <h1 className="singer">{name}</h1>
       </a>

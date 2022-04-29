@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import NinaSimone from "../components/NinaSimone";
+import NinaSimone from "../components/Artists/NinaSimone";
 import { NextSeo } from "next-seo";
 
 export default function Nina() {
@@ -28,6 +28,10 @@ export default function Nina() {
 
       <div>
         <main className="content">
+          <div className="timespan">
+            <p>from Fri, Apr 15, 2022 to</p>
+            <p id="date">Fri, Apr 29, 2022</p>
+          </div>
           <NinaSimone />
         </main>
       </div>
