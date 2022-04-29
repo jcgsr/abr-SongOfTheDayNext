@@ -20,7 +20,7 @@ export default function Artist(props) {
           width="560"
           height="315"
           text-align="center"
-          src="https://www.youtube.com/embed/TdXbEXOjft0"
+          src={youtube}
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

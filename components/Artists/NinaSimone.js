@@ -8,7 +8,7 @@ export default function NinaSimone() {
       site="https://en.wikipedia.org/wiki/Nina_Simone"
       name="Nina Simone"
       song="I Wish I Knew How It Would Feel To Be Free"
-      youtube="https://youtu.be/-sEP0-8VAow"
+      youtube="https://www.youtube.com/embed/-sEP0-8VAow"
       amazon="https://music.amazon.com.br/embed/B073LYYDZP/?id=1znsgLCzxd&marketplaceId=ART4WZ8MWBX2Y&musicTerritory=BR"
       spotify="https://open.spotify.com/embed/track/5CKHhg31HcYYhwUeeGqvhq?utm_source=generator"
       lyrics="♫ I wish I knew how It would feel to be free I wish I could break
