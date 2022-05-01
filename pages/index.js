@@ -29,8 +29,9 @@ export default function Home() {
     new window.google.translate.TranslateElement(
       {
         pageLanguage: "en",
-        // includedLanguages: "en, zh-CN, pt, de", // include this for selected languages
-        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        //includedLanguages: "en, de, pt, ta, zh-CN", // include this for selected languages
+        includedLanguages: "ar,de,en,es,jv,ko,pt,ru,zh-CN,tr",
+        //layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
       },
       "google_translate_element"
     );
