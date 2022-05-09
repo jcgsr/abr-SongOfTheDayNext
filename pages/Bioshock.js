@@ -32,7 +32,19 @@ export default function Bioshock() {
             <p>from Fri, Apr 15, 2022 to</p>
             <p id="date">Fri, Apr 29, 2022</p>
           </div> */}
-          <BioshockComponent />
+          <BioshockComponent />{" "}
+          <div className="testimonial">
+            <p>
+              Listening to this song is excruciating because this is what I have
+              been going through since my mother passed away in 2013. "One by
+              one their seats were emptied..." O, boy... My mother(February
+              2013), my father(June 2020), my sister (December 2020), and my
+              grandmother (April 2022), only to mention the most recent one...
+              if you go back just a little... O, boy... And then I keep asking
+              myself: "Will it be complete one day? Will the circle be
+              unbroken...". It's almost unbearable sometimes.
+            </p>
+          </div>
         </main>
       </div>
     </Layout>

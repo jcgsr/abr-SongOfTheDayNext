@@ -317,6 +317,21 @@ footer p {
   color: var(--primary);
   box-shadow: var(--terciary) 1px 1px 3px;
 }
+.testimonial {
+  text-align: center;
+  margin: 2rem auto;
+  width: 70%;
+}
+@media screen and (max-width: 456px) {
+  .testimonial {
+    width: 90%;
+  }
+}
+
+.testimonial p {
+  font-size: 1.2rem;
+  color: var(--quaternary);
+}
 /* IDS */
 #date {
   color: var(--secondary);

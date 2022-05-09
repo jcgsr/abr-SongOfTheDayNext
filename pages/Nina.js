@@ -33,6 +33,15 @@ export default function Nina() {
             <p id="date">Fri, Apr 29, 2022</p>
           </div>
           <NinaSimone />
+          <div className="testimonial">
+            <p>
+              Listening to this song is like feeling the pain, the anger, the
+              longing to be free. Whenever I hear Nina's voice singing this song
+              is like a flood of bitterness that she may have had to experience
+              for whatever goddamned reasons. In fact, the reason I created this
+              site was to, say, pay an homage to her.
+            </p>
+          </div>
         </main>
       </div>
     </Layout>
