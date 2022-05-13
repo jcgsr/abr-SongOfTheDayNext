@@ -28,10 +28,10 @@ export default function Bioshock() {
 
       <div>
         <main className="content">
-          {/* <div className="timespan">
-            <p>from Fri, Apr 15, 2022 to</p>
-            <p id="date">Fri, Apr 29, 2022</p>
-          </div> */}
+          <div className="timespan">
+            <p>from Fri, Apr 29, 2022 to</p>
+            <p id="date">Fri, May 13, 2022</p>
+          </div>
           <BioshockComponent />{" "}
           <div className="testimonial">
             <p>

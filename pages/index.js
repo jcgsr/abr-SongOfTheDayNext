@@ -5,10 +5,12 @@ import Previous from "../components/Previous";
 import Layout from "../components/Layout";
 import NinaSimone from "../components/Artists/NinaSimone";
 import Bioshock from "../components/Artists/BioshockComponent";
+import GratefulDead from "../components/Artists/GratefulDeadComponent";
 import TimeSpan from "../components/TimeSpan";
 
 import { motion } from "framer-motion";
 import Head from "next/head";
+import GratefulDeadComponent from "../components/Artists/GratefulDeadComponent";
 
 const variants = {
   hidden: { opacity: 0, x: -200, y: 0 },
@@ -86,7 +88,8 @@ export default function Home() {
             </a>
           </p>
           <TimeSpan />
-          <Bioshock />
+          <GratefulDead />
+          {/*<Bioshock /> */}
           {/* <NinaSimone /> */}
         </motion.main>
         <h2>Previous Songs</h2>
@@ -97,6 +100,13 @@ export default function Home() {
             song="I Wish I Knew How It Would Feel To Be Free"
             page="/Nina"
           />
+          <Previous
+            data-aos="fade-right"
+            artist="Bioshock - Infinite"
+            song="Will the Circle Be Unbroken"
+            page="/Bioshock"
+          />
+
           <hr style={{ width: "70%", margin: "2rem auto" }} />
         </div>
       </Layout>
