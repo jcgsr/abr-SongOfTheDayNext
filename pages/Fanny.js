@@ -33,13 +33,13 @@ export default function Fanny() {
             <p>from Tue, Jun 28, 2022 to</p>
             <p id="date">Tue, Jun 28, 2022</p>
           </div>*/}
-          <BioshockComponent />{" "}
+          <FannyComponent />{" "}
           <div className="testimonial">
             <p>
-              Listening to this song is feeling all the power of Rock'n'Roll in
-              some wonderful voices. The rhythm is totally awsome! I can't stop
-              dancing while listening to this song :) The riff is catchy as
-              hell! A geniune perl this song!
+              Listening to this song is feeling all the power of
+              Rock&apos;n&apos;Roll in some wonderful voices. The rhythm is
+              totally awsome! I can&apos;t stop dancing while listening to this
+              song :) The riff is catchy as hell! A geniune perl this song!
             </p>
           </div>
         </main>
