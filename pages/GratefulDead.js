@@ -17,7 +17,8 @@ export default function GratefulDead() {
           description: "Grateful Dead - Ripple",
           images: [
             {
-              url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoh4qn2QuXjAfwLO1eyYFBDOH6iy2oTOoXhA&usqp=CAU",
+              url:
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoh4qn2QuXjAfwLO1eyYFBDOH6iy2oTOoXhA&usqp=CAU",
               width: 800,
               height: 420,
               alt: "GratefulDead Infinite",
@@ -28,10 +29,10 @@ export default function GratefulDead() {
 
       <div>
         <main className="content">
-          {/* <div className="timespan">
+          <div className="timespan">
             <p>from Fri, Apr 15, 2022 to</p>
-            <p id="date">Fri, Apr 29, 2022</p>
-          </div> */}
+            <p id="date">Tue, Jun 28, 2022</p>
+          </div>
           <GratefulDeadComponent />{" "}
           <div className="testimonial">
             <p>

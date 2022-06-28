@@ -5,12 +5,12 @@ import Previous from "../components/Previous";
 import Layout from "../components/Layout";
 import NinaSimone from "../components/Artists/NinaSimone";
 import Bioshock from "../components/Artists/BioshockComponent";
-import GratefulDead from "../components/Artists/GratefulDeadComponent";
+import GratefulDeadComponent from "../components/Artists/GratefulDeadComponent";
+import FannyComponent from "../components/Artists/FannyComponent";
 import TimeSpan from "../components/TimeSpan";
 
 import { motion } from "framer-motion";
 import Head from "next/head";
-import GratefulDeadComponent from "../components/Artists/GratefulDeadComponent";
 
 const variants = {
   hidden: { opacity: 0, x: -200, y: 0 },
@@ -88,7 +88,8 @@ export default function Home() {
             </a>
           </p>
           <TimeSpan />
-          <GratefulDead />
+          <FannyComponent />
+          {/*<GratefulDead />*/}
           {/*<Bioshock /> */}
           {/* <NinaSimone /> */}
         </motion.main>
@@ -105,8 +106,13 @@ export default function Home() {
             artist="Bioshock - Infinite"
             song="Will the Circle Be Unbroken"
             page="/Bioshock"
+          />{" "}
+          <Previous
+            data-aos="fade-right"
+            artist="GratefulDead"
+            song="Ripple"
+            page="/GratefulDead"
           />
-
           <hr style={{ width: "70%", margin: "2rem auto" }} />
         </div>
       </Layout>
