@@ -11,7 +11,7 @@ export default function TimeSpan() {
     <div>
       {" "}
       <div className="timespan">
-        <p>from Fri, May 13, 2022 to</p>
+        <p>from Tue, Jun 28, 2022 to</p>
         <p id="date">{new Date().toLocaleDateString("en-US", DATE_OPTIONS)}</p>
       </div>
     </div>
