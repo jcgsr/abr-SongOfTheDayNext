@@ -17,8 +17,7 @@ export default function Fanny() {
           description: "Fanny - Charity Ball",
           images: [
             {
-              url:
-                "https://upload.wikimedia.org/wikipedia/en/c/c5/FannyHillv2.jpg",
+              url: "https://upload.wikimedia.org/wikipedia/en/c/c5/FannyHillv2.jpg",
               width: 800,
               height: 420,
               alt: "Fanny",
@@ -29,10 +28,10 @@ export default function Fanny() {
 
       <div>
         <main className="content">
-          {/* <div className="timespan">
+          <div className="timespan">
             <p>from Tue, Jun 28, 2022 to</p>
-            <p id="date">Tue, Jun 28, 2022</p>
-          </div>*/}
+            <p id="date">Sun, Sep 25, 2022</p>
+          </div>
           <FannyComponent />{" "}
           <div className="testimonial">
             <p>

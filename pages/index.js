@@ -7,6 +7,7 @@ import NinaSimone from "../components/Artists/NinaSimone";
 import Bioshock from "../components/Artists/BioshockComponent";
 import GratefulDeadComponent from "../components/Artists/GratefulDeadComponent";
 import FannyComponent from "../components/Artists/FannyComponent";
+import Belchior from "../components/Artists/BelchiorComponent";
 import TimeSpan from "../components/TimeSpan";
 
 import { motion } from "framer-motion";
@@ -88,7 +89,8 @@ export default function Home() {
             </a>
           </p>
           <TimeSpan />
-          <FannyComponent />
+          <Belchior />
+          {/*<FannyComponent />*/}
           {/*<GratefulDead />*/}
           {/*<Bioshock /> */}
           {/* <NinaSimone /> */}
@@ -112,6 +114,12 @@ export default function Home() {
             artist="GratefulDead"
             song="Ripple"
             page="/GratefulDead"
+          />{" "}
+          <Previous
+            data-aos="fade-right"
+            artist="Fanny"
+            song="Charity Ball"
+            page="/Fanny"
           />
           <hr style={{ width: "70%", margin: "2rem auto" }} />
         </div>
