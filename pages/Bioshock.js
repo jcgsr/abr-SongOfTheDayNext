@@ -40,7 +40,7 @@ export default function Bioshock() {
               by one their seats were emptied...&quot; O, boy... My mother
               (February 2013), my father (June 2020), my sister (December 2020),
               and my grandmother (April 2022), only to mention the most recent
-              one... if you go back just a little... O, boy... And then I keep
+              ones... if you go back just a little... O, boy... And then I keep
               asking myself: &quot;Will it be complete one day? Will the circle
               be unbroken...&quot;. It&apos;s almost unbearable sometimes.
             </p>

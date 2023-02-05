@@ -3,11 +3,12 @@ import React, { useEffect } from "react";
 
 import Previous from "../components/Previous";
 import Layout from "../components/Layout";
-import NinaSimone from "../components/Artists/NinaSimone";
-import Bioshock from "../components/Artists/BioshockComponent";
-import GratefulDeadComponent from "../components/Artists/GratefulDeadComponent";
-import FannyComponent from "../components/Artists/FannyComponent";
-import Belchior from "../components/Artists/BelchiorComponent";
+// import NinaSimone from "../components/Artists/NinaSimone";
+// import Bioshock from "../components/Artists/BioshockComponent";
+// import GratefulDeadComponent from "../components/Artists/GratefulDeadComponent";
+// import FannyComponent from "../components/Artists/FannyComponent";
+// import Belchior from "../components/Artists/BelchiorComponent";
+import Cramps from "../components/Artists/CrampsComponent";
 import TimeSpan from "../components/TimeSpan";
 
 import { motion } from "framer-motion";
@@ -89,7 +90,9 @@ export default function Home() {
             </a>
           </p>
           <TimeSpan />
-          <Belchior />
+          <Cramps />
+          {/*<Belchior />*/}
+
           {/*<FannyComponent />*/}
           {/*<GratefulDead />*/}
           {/*<Bioshock /> */}
@@ -120,6 +123,12 @@ export default function Home() {
             artist="Fanny"
             song="Charity Ball"
             page="/Fanny"
+          />
+          <Previous
+            data-aos="fade-right"
+            artist="Belchior"
+            song="Comentário a Respeito de John"
+            page="/Belchior"
           />
           <hr style={{ width: "70%", margin: "2rem auto" }} />
         </div>
