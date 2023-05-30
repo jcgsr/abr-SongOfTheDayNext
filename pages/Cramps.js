@@ -28,11 +28,11 @@ export default function Cramps() {
 
       <div>
         <main className="content">
-          {/*<div className="timespan">
+          <div className="timespan">
             <p>from Sun, Feb 05, 2023 to</p>
-            <p id="date">Sun, Feb 05, 2023</p>
-          </div>*/}
-          <CrampsComponent />{" "}
+            <p id="date">Mon, May 30, 2023</p>
+          </div>
+          <CrampsComponent />
           <div className="testimonial">
             <p>
               Well... a huge hype now about Wednesday dancing to the sound of

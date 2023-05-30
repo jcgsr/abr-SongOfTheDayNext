@@ -8,7 +8,8 @@ import Layout from "../components/Layout";
 // import GratefulDeadComponent from "../components/Artists/GratefulDeadComponent";
 // import FannyComponent from "../components/Artists/FannyComponent";
 // import Belchior from "../components/Artists/BelchiorComponent";
-import Cramps from "../components/Artists/CrampsComponent";
+// import Cramps from "../components/Artists/CrampsComponent";
+import RitaLee from "../components/Artists/RitaLeeComponent";
 import TimeSpan from "../components/TimeSpan";
 
 import { motion } from "framer-motion";
@@ -90,7 +91,8 @@ export default function Home() {
             </a>
           </p>
           <TimeSpan />
-          <Cramps />
+          <RitaLee />
+          {/* <Cramps /> */}
           {/*<Belchior />*/}
 
           {/*<FannyComponent />*/}
@@ -129,6 +131,12 @@ export default function Home() {
             artist="Belchior"
             song="Comentário a Respeito de John"
             page="/Belchior"
+          />
+          <Previous
+            data-aos="fade-right"
+            artist="The Cramps"
+            song="Goo Goo Muck"
+            page="/Cramps"
           />
           <hr style={{ width: "70%", margin: "2rem auto" }} />
         </div>
