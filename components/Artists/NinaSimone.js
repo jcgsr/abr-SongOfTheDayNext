@@ -11,6 +11,7 @@ export default function NinaSimone() {
       youtube="https://www.youtube.com/embed/-sEP0-8VAow"
       amazon="https://music.amazon.com.br/embed/B073LYYDZP/?id=1znsgLCzxd&marketplaceId=ART4WZ8MWBX2Y&musicTerritory=BR"
       spotify="https://open.spotify.com/embed/track/5CKHhg31HcYYhwUeeGqvhq?utm_source=generator"
+      applemusic="https://music.apple.com/br/album/i-wish-i-knew-how-it-would-feel-to-be-free/255987553?i=255987572"
       lyrics="♫ I wish I knew how It would feel to be free I wish I could break
       All the chains holding me I wish I could say All the things that I
       should say Say 'em loud say 'em clear For the whole round world to

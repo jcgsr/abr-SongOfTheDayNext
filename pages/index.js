@@ -9,7 +9,8 @@ import Layout from "../components/Layout";
 // import FannyComponent from "../components/Artists/FannyComponent";
 // import Belchior from "../components/Artists/BelchiorComponent";
 // import Cramps from "../components/Artists/CrampsComponent";
-import RitaLee from "../components/Artists/RitaLeeComponent";
+// import RitaLee from "../components/Artists/RitaLeeComponent";
+import GalCosta from "../components/Artists/GalCostaComponent";
 import TimeSpan from "../components/TimeSpan";
 
 import { motion } from "framer-motion";
@@ -25,7 +26,7 @@ export default function Home() {
     var addScript = document.createElement("script");
     addScript.setAttribute(
       "src",
-      "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+      "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit",
     );
     document.body.appendChild(addScript);
     window.googleTranslateElementInit = googleTranslateElementInit;
@@ -38,7 +39,7 @@ export default function Home() {
         includedLanguages: "ar,de,en,es,jv,ko,pt,ru,zh-CN,tr",
         //layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
       },
-      "google_translate_element"
+      "google_translate_element",
     );
   };
 
@@ -91,7 +92,8 @@ export default function Home() {
             </a>
           </p>
           <TimeSpan />
-          <RitaLee />
+          <GalCosta />
+          {/* <RitaLee /> */}
           {/* <Cramps /> */}
           {/*<Belchior />*/}
 
@@ -137,6 +139,12 @@ export default function Home() {
             artist="The Cramps"
             song="Goo Goo Muck"
             page="/Cramps"
+          />{" "}
+          <Previous
+            data-aos="fade-right"
+            artist="Rita Lee"
+            song="Cartão Postal"
+            page="/RitaLee"
           />
           <hr style={{ width: "70%", margin: "2rem auto" }} />
         </div>

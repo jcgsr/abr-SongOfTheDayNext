@@ -10,6 +10,7 @@ export default function CrampsComponent() {
       youtube="https://www.youtube.com/embed/tz7eMdjHPgA?start=159"
       amazon="https://music.amazon.com.br/embed/B001B6E2II/?id=qCvgw6VQfy&marketplaceId=ART4WZ8MWBX2Y&musicTerritory=BR"
       spotify="https://open.spotify.com/embed/track/3EEd6ldsPat620GVYMEhOP?utm_source=generator"
+      applemusic="https://music.apple.com/br/album/goo-goo-muck/724545890?i=724546591"
       lyrics="♫ Well, when the sun goes down and the moon comes up
 I turn into a teenage Goo Goo Muck
 Yeah, I cruise through the city and I roam the streets

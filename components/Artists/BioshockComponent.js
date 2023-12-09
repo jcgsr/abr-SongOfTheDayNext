@@ -10,6 +10,7 @@ export default function BioshockComponent() {
       youtube="https://www.youtube.com/embed/TdXbEXOjft0"
       amazon="https://music.amazon.com.br/embed/B08J2HY6KS/?id=EH0FKasht9&marketplaceId=ART4WZ8MWBX2Y&musicTerritory=BR"
       spotify="https://open.spotify.com/embed/track/0O1P1YNIm62QpB8DYYjymg?utm_source=generator"
+      applemusic="https://music.apple.com/br/album/will-the-circle-be-unbroken-mono/826402659?i=826405891"
       lyrics="♫ There are loved ones in the glory, 
       Whose dear forms you often miss; 
       When you close your earthly story, 

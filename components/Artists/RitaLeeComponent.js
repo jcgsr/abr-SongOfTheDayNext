@@ -10,6 +10,7 @@ export default function RitaLeeComponent() {
       youtube="https://www.youtube.com/embed/LxnP5rehHB8"
       amazon="https://music.amazon.com.br/embed/B073LZ73XZ/?id=N2IJZH1cyd&marketplaceId=ART4WZ8MWBX2Y&musicTerritory=BR"
       spotify="https://open.spotify.com/embed/track/5dGa7fJLMHbNNhzKIa2oL7?utm_source=generator"
+      applemusic="https://music.apple.com/br/album/cart%C3%A3o-postal/712931448?i=712931808"
       lyrics="♫ Pra que sofrer com despedida?
       Se quem parte não leva      
       Nem o Sol, nem as trevas      

@@ -1,7 +1,7 @@
 import React from "react";
 
 import Layout from "../components/Layout";
-import CrampsComponent from "../components/Artists/CrampsComponent";
+import RitaLeeComponent from "../components/Artists/RitaLeeComponent";
 import { NextSeo } from "next-seo";
 
 export default function RitaLee() {
@@ -28,11 +28,11 @@ export default function RitaLee() {
 
       <div>
         <main className="content">
-          {/*<div className="timespan">
+          <div className="timespan">
             <p>from Mon, May 30, 2023 to</p>
-            <p id="date">Mon, May 30, 2023</p>
-          </div>*/}
-          <CrampsComponent />{" "}
+            <p id="date">Sat, Dec 9, 2023</p>
+          </div>
+          <RitaLeeComponent />{" "}
           <div className="testimonial">
             <p>
               A small tribute to our queen of Brazilian rock, Rita Lee. Despite
