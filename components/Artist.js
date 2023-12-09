@@ -52,7 +52,7 @@ export default function Artist(props) {
         ></iframe>
         <iframe
           allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
-          frameborder="0"
+          frameBorder="0"
           height="175"
           style={{
             width: "100%",
