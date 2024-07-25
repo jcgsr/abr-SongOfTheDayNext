@@ -10,7 +10,7 @@ export default function FannyComponent() {
       youtube="https://www.youtube.com/embed/RWqFMAjO2a8"
       amazon="https://music.amazon.com.br/embed/B073Y7MVF7/?id=cwJNHxkVzo&marketplaceId=ART4WZ8MWBX2Y&musicTerritory=BR"
       spotify="https://open.spotify.com/embed/track/0DRXqi8Hw3xTeEv5VbvtVZ?utm_source=generator"
-      applemusic="https://music.apple.com/br/album/charity-ball-single-version/1220480888?i=1220481254"
+      applemusic="https://embed.music.apple.com/br/album/charity-ball-first-version/1466467389?i=1466467586"
       lyrics="♫ Dance, ooh, stand, ooh
 Move to charity ball
 Dance, ooh, stand, ooh

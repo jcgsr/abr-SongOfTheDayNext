@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header>
       <Link href="/">Song of the Day</Link>
-      <Link href="#previous">Previous Songs</Link>
+      <Link href="/#previous">Previous Songs</Link>
     </header>
   );
 }

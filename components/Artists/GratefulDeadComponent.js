@@ -10,7 +10,7 @@ export default function GratefulDeadComponent() {
       youtube="https://www.youtube.com/embed/5yJmBC7cMTM"
       amazon="https://music.amazon.com.br/embed/B08GY6X4LB/?id=6DO4GAfC0K&marketplaceId=ART4WZ8MWBX2Y&musicTerritory=BR"
       spotify="https://open.spotify.com/embed/track/4aQ8mFkZU6dmHaZOOKdscc?utm_source=generator"
-      applemusic="https://music.apple.com/br/album/ripple-remastered-version/791870804?i=791880506"
+      applemusic="https://embed.music.apple.com/br/album/ripple-2020-remaster/1529676260?i=1529676269"
       lyrics="♫  If my words did glow with the gold of sunshine
 And my tunes were played on the harp unstrung
 Would you hear my voice come through the music?

@@ -9,7 +9,7 @@ export default function GalCostaComponent() {
       youtube="https://www.youtube.com/embed/uqNDjULEXLg?si=NLCyJbUY6G01oSYq"
       amazon="https://music.amazon.com.br/embed/B073N6X9TB/?id=3wehHv6CUE&marketplaceId=ART4WZ8MWBX2Y&musicTerritory=BR"
       spotify="https://open.spotify.com/embed/track/5dGa7fJLMHbNNhzKIa2oL7?utm_source=generator"
-      applemusic="https://music.apple.com/br/album/voc%C3%AA-n%C3%A3o-entende-nada/1444182517?i=1444183468"
+      applemusic="https://embed.music.apple.com/br/album/voc%C3%AA-n%C3%A3o-entende-nada/1444182517?i=1444183468"
       lyrics="♫  Quando eu chego em casa nada me consola
 Você está sempre aflita
 Lágrimas nos olhos, de cortar cebola
