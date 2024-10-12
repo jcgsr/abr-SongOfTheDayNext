@@ -10,7 +10,8 @@ import Layout from "../components/Layout";
 // import Belchior from "../components/Artists/BelchiorComponent";
 // import Cramps from "../components/Artists/CrampsComponent";
 // import RitaLee from "../components/Artists/RitaLeeComponent";
-import GalCosta from "../components/Artists/GalCostaComponent";
+// import GalCosta from "../components/Artists/GalCostaComponent";
+import Animals from "../components/Artists/AnimalsComponent.js";
 import TimeSpan from "../components/TimeSpan";
 
 import { motion } from "framer-motion";
@@ -92,7 +93,8 @@ export default function Home() {
             </a>
           </p>
           <TimeSpan />
-          <GalCosta />
+          <Animals />
+          {/*}<GalCosta /> */}
           {/* <RitaLee /> */}
           {/* <Cramps /> */}
           {/*<Belchior />*/}
@@ -145,6 +147,12 @@ export default function Home() {
             artist="Rita Lee"
             song="Cartão Postal"
             page="/RitaLee"
+          />
+          <Previous
+            data-aos="fade-right"
+            artist="Gal Costa"
+            song="Vocẽ não entende nada"
+            page="/GalCosta"
           />
           <hr style={{ width: "70%", margin: "2rem auto" }} />
         </div>

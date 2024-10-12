@@ -28,10 +28,10 @@ export default function GalCosta() {
 
       <div>
         <main className="content">
-          {/*<div className="timespan">
+          <div className="timespan">
             <p>from Sat, Dec 9, 2023 to</p>
-            <p id="date">Sat, Dec 9, 2023</p>
-          </div>*/}
+            <p id="date">Sat, Oct 12, 2024</p>
+          </div>
           <GalCostaComponent />{" "}
           <div className="testimonial">
             <p>
