@@ -1,7 +1,7 @@
 import React from "react";
 
 import Layout from "../components/Layout";
-import {MozartComponent from "../components/Artists/MozartComponent";
+import MozartComponent from "../components/Artists/MozartComponent";
 import { NextSeo } from "next-seo";
 
 export default function Mozart() {
