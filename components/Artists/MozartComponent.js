@@ -15,8 +15,8 @@ Tod und Verzweiflung,
 Tod und Verzweiflung flammet um mich her!
 Fühlt nicht durch dich Sarastro Todesschmerzen,
 Sarastro Todesschmerzen,
-Sot du meine Tochter nimmermehr.
-Sot du mei, meine Tochter nimmermehr.
+So du meine Tochter nimmermehr.
+So du mei, meine Tochter nimmermehr.
 Aaaaah...
 meine Tochter nimmermehr.
 Aaaaah...

@@ -12,7 +12,7 @@ import Layout from "../components/Layout";
 // import RitaLee from "../components/Artists/RitaLeeComponent";
 // import GalCosta from "../components/Artists/GalCostaComponent";
 //import Animals from "../components/Artists/AnimalsComponent.js";
-import Mozart from "../components/Artists/MozartComponent";
+import MozartComponent from "../components/Artists/MozartComponent";
 import TimeSpan from "../components/TimeSpan";
 
 import { motion } from "framer-motion";
@@ -94,7 +94,7 @@ export default function Home() {
             </a>
           </p>
           <TimeSpan />
-          <Mozart />
+          <MozartComponent />
           {/*<Animals /> */}
           {/*}<GalCosta /> */}
           {/* <RitaLee /> */}
