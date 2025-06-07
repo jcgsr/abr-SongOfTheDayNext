@@ -1,9 +1,9 @@
 import React from "react";
 
-import { motion, useViewportScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 export default function Artist(props) {
-  const { scrollYProgress } = useViewportScroll();
+  const { scrollYProgress } = useScroll();
   const scale = useTransform(scrollYProgress, [0, 0.9], [0.2, 1]);
   const { site, name, song, youtube, amazon, spotify, applemusic, lyrics } =
     props;

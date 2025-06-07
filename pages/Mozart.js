@@ -1,7 +1,7 @@
 import React from "react";
 
 import Layout from "../components/Layout";
-import Mozart from "../components/Artists/MozartComponent";
+import { MozartComponent } from "../components/Artists/MozartComponent";
 import { NextSeo } from "next-seo";
 
 export default function Mozart() {
@@ -32,7 +32,7 @@ export default function Mozart() {
             <p>from Sat, Jun 7, 2025 to</p>
             <p id="date">Sat, Jun 7, 2025</p>
           </div>*/}
-          <Animals />{" "}
+          <MozartComponent />{" "}
           <div className="testimonial">
             <p>
               This song, performed by Diana Damrau, was simply unbelievable... a
