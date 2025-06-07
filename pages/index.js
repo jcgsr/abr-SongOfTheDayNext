@@ -11,7 +11,8 @@ import Layout from "../components/Layout";
 // import Cramps from "../components/Artists/CrampsComponent";
 // import RitaLee from "../components/Artists/RitaLeeComponent";
 // import GalCosta from "../components/Artists/GalCostaComponent";
-import Animals from "../components/Artists/AnimalsComponent.js";
+//import Animals from "../components/Artists/AnimalsComponent.js";
+import Mozart from "../components/Artists/MozartComponent";
 import TimeSpan from "../components/TimeSpan";
 
 import { motion } from "framer-motion";
@@ -93,7 +94,8 @@ export default function Home() {
             </a>
           </p>
           <TimeSpan />
-          <Animals />
+          <Mozart />
+          {/*<Animals /> */}
           {/*}<GalCosta /> */}
           {/* <RitaLee /> */}
           {/* <Cramps /> */}
@@ -153,6 +155,12 @@ export default function Home() {
             artist="Gal Costa"
             song="Vocẽ não entende nada"
             page="/GalCosta"
+          />
+          <Previous
+            data-aos="fade-right"
+            artist="The Animals"
+            song="It's my life"
+            page="/Animals"
           />
           <hr style={{ width: "70%", margin: "2rem auto" }} />
         </div>

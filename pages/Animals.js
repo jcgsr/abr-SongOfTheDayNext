@@ -28,10 +28,12 @@ export default function AnimalsComponent() {
 
       <div>
         <main className="content">
-          {/*<div className="timespan">
-            <p>from Sat, Oct 12, 2024 to</p>
-            <p id="date">Sat, Oct 12, 2024</p>
-          </div>*/}
+          {
+            <div className="timespan">
+              <p>from Sat, Out 12, 2024 to</p>
+              <p id="date">Sat, Jun 7, 2025</p>
+            </div>
+          }
           <Animals />{" "}
           <div className="testimonial">
             <p>

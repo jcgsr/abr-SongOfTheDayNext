@@ -1,14 +1,6 @@
 import React from "react";
 import Artist from "../Artist";
 export default function AnimalsComponent() {
-  <iframe
-    allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
-    frameBorder="0"
-    height="175"
-    style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;"
-    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-    src="https://embed.music.apple.com/br/album/voc%C3%AA-n%C3%A3o-entende-nada/1370045608?i=1370046097"
-  ></iframe>;
   return (
     <Artist
       site="https://pt.wikipedia.org/wiki/The_Animals"
