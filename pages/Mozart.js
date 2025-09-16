@@ -28,10 +28,10 @@ export default function Mozart() {
 
       <div>
         <main className="content">
-          {/*<div className="timespan">
+          <div className="timespan">
             <p>from Sat, Jun 7, 2025 to</p>
-            <p id="date">Sat, Jun 7, 2025</p>
-          </div>*/}
+            <p id="date">Tue, Sep 16, 2025</p>
+          </div>
           <MozartComponent />{" "}
           <div className="testimonial">
             <p>

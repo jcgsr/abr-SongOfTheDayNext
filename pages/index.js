@@ -12,7 +12,8 @@ import Layout from "../components/Layout";
 // import RitaLee from "../components/Artists/RitaLeeComponent";
 // import GalCosta from "../components/Artists/GalCostaComponent";
 //import Animals from "../components/Artists/AnimalsComponent.js";
-import MozartComponent from "../components/Artists/MozartComponent";
+//import Mozart from "../components/Artists/MozartComponent";
+import Erasmo from "../components//Artists/ErasmoComponent";
 import TimeSpan from "../components/TimeSpan";
 
 import { motion } from "framer-motion";
@@ -94,7 +95,8 @@ export default function Home() {
             </a>
           </p>
           <TimeSpan />
-          <MozartComponent />
+          <Erasmo />
+          {/*<Mozart />*/}
           {/*<Animals /> */}
           {/*}<GalCosta /> */}
           {/* <RitaLee /> */}
@@ -161,6 +163,12 @@ export default function Home() {
             artist="The Animals"
             song="It's my life"
             page="/Animals"
+          />
+          <Previous
+            data-aos="fade-right"
+            artist="Mozart"
+            song="Der Hölle Rache"
+            page="/Mozart"
           />
           <hr style={{ width: "70%", margin: "2rem auto" }} />
         </div>
