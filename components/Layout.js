@@ -22,6 +22,11 @@ export default function Layout({ children }) {
           name="google-site-verification"
           content="ymDSNC0hJKNdPP_u-w3Z6rmZywZ6S2XywCDazFCYV_I"
         />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2008019372085379"
+          crossOrigin="anonymous"
+        ></script>
       </Head>
       <Header />
 
